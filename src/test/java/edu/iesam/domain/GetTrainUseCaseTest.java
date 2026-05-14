@@ -20,7 +20,7 @@ class GetTrainUseCaseTest {
 
 
         trainMockRepository  = new TrainMockRepository();
-        GetTrainUseCase gettrainUseCase = new GetTrainUseCase(trainMockRepository);
+        getTrainUseCase = new GetTrainUseCase(trainMockRepository);
 
         ArrayList<Train> trains = getTrainUseCase.execute();
 
