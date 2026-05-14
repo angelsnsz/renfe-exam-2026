@@ -10,5 +10,4 @@ public interface TrainRepository {
 
     ArrayList<Train> getAll();
 
-    Train getid(String id);
 }
