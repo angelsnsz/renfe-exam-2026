@@ -27,8 +27,5 @@ public class TrainDataRepository implements TrainRepository {
         return trainMemLocalDataSource.findAll();
     }
 
-    @Override
-    public Train getid(String id) {
-        return trainMemLocalDataSource.findAll().get(0);
-    }
+
 }
